@@ -20,12 +20,16 @@ const footDataContent = `
                         `
 
 const footData = document.querySelector("footer");
-footData.classList.add("footData");
-footData.setAttribute("id","footData");
+// footData.classList.add("footData");
+// footData.setAttribute("id","footData");
 footData.innerHTML = footDataContent;
 footData.style.marginTop="85vh";
 
 }
+
+console.log("---------------------------------var explination------------------------------------------------------");
+
+{
 
 /*
     >>>>var <<<<
@@ -41,7 +45,6 @@ footData.style.marginTop="85vh";
 
 
 
-console.log("---------------------------------var explination------------------------------------------------------");
 
 const varDataFunc = ()=>{
     {
@@ -76,11 +79,14 @@ for now we declared the whole block as a function so f we uncomment the line bel
 
 console.log("---------------------------------------------------------------------------------------");
 
-
+}
 
 
 console.log("---------------------------------let explination------------------------------------------------------");
 
+
+{
+    
 /*
 let exists in a block scope it doestnt care about function and method as long as its in its block it is considered.
 
@@ -94,8 +100,6 @@ throws an reference error if used before
 
 
 */
-
-{
     
     // console.log("type of letVariable: ", typeof(letVariable),"value inside is: ", letVariable);  // throws an error for reference
     let letVariable ;
@@ -118,14 +122,14 @@ throws an reference error if used before
 
     console.log(letVariable);
 
-
-}
 // cannot use before declaration
     // console.log(letVariable);
 
 
 
-console.log("---------------------------------------------------------------------------------------");
+    console.log("---------------------------------------------------------------------------------------");
+
+}
 
 
 
@@ -166,11 +170,12 @@ console.log("---------------------------------const explination-----------------
         console.log(mutableObject); // value changed to entirely differnt thing without any warning
 
         // but cannot change immutableObject so we can use const for declaring types that we cannot change objects accidently to completey diiferent thing
+        
+console.log("---------------------------------------------------------------------------------------");
 
 }
 
 
-console.log("---------------------------------------------------------------------------------------");
 
 
 
