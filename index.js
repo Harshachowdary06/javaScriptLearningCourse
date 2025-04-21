@@ -34,8 +34,7 @@ footer1.innerHTML = footerData;
     if(document.body.querySelector(".module") != " "){
 
         const module = document.body.querySelector(".module");
-        document.body.querySelector("pre").style.backgroundColor = "aquablue";
-        //module.style.color="red";
+        document.body.querySelector(".module").style.backgroundColor = "aquablue";
         module.style.width= "100%";
         module.style.height = "fit-content";
         module.style.padding ="30px";
