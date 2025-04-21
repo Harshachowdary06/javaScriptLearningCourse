@@ -1,0 +1,10 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+pre{
+    background-color: rgb(0, 0, 0);
+    width: fit-screen;
+    padding: 50px;
+    color:whitesmoke;
+}
