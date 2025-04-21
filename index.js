@@ -24,7 +24,9 @@ footer1.innerHTML = footerData;
     footer1.style.backgroundColor = "grey";
     footer1.style.color ="black";
     footer1.style.fontFamily = "monospace";
-    footer1.style.marginTop= "70vH";
+    footer1.style.marginBottom= "0%";
+    footer1.style.position ="fixed;"
+    footer1.style.width="100%"
 }
 
 // setting module style for in index file modules
@@ -32,15 +34,20 @@ footer1.innerHTML = footerData;
 {
 
     if(document.body.querySelector(".module") != " "){
-
-        const module = document.body.querySelector(".module");
+        
+        for(let block =0;block <document.body.querySelectorAll("div").length;block++){
+    
+        let module = document.body.querySelectorAll(".module")[block];
         document.body.querySelector(".module").style.backgroundColor = "aquablue";
-        module.style.width= "100%";
+        module.style.width= "fit-Screen";
         module.style.height = "fit-content";
         module.style.padding ="30px";
         module.style.marginBottom = "30px";
         module.style.backgroundColor=  "aliceblue";
         module.style.fontFamily = "Georgia, 'Times New Roman', Times, serif";
+        
+        console.log(block,": got executed succesfully")
+        }
 
 
     }
