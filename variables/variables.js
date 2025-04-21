@@ -8,24 +8,24 @@ const developerName = "Sai Sri Harsha Pemmasani"    // declaring and initializin
     >>>>>>>>>>>>>Ignore the code in between<<<<<<<<<<<<<<<<<
     ------------------------------------
 */
-{
-const footDataContent = `
+// {
+// const footDataContent = `
 
-                            <h3>  
-                            <center>    
-                            @${developerName}
-                            </center>
-                            </h3>
+//                             <h3>  
+//                             <center>    
+//                             @${developerName}
+//                             </center>
+//                             </h3>
 
-                        `
+//                         `
 
-const footData = document.querySelector("footer");
-// footData.classList.add("footData");
-// footData.setAttribute("id","footData");
-footData.innerHTML = footDataContent;
-footData.style.marginTop="85vh";
+// const footData = document.querySelector("footer");
+// // footData.classList.add("footData");
+// // footData.setAttribute("id","footData");
+// footData.innerHTML = footDataContent;
+// footData.style.marginTop="85vh";
 
-}
+// }
 
 console.log("---------------------------------var explination------------------------------------------------------");
 
