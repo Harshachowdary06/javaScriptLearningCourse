@@ -43,7 +43,8 @@ footer1.innerHTML = footerData;
         module.style.height = "fit-content";
         module.style.padding ="30px";
         module.style.marginBottom = "30px";
-        module.style.backgroundColor=  "aliceblue";
+        module.style.backgroundColor=  "black";
+        module.style.color="white"
         module.style.fontFamily = "Georgia, 'Times New Roman', Times, serif";
         
         console.log(block,": got executed succesfully")
