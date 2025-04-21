@@ -162,6 +162,25 @@ const code5_0 = document.createElement("div")
     code6_0.classList.add("module");
   }
 
+  ///
+  function multiplier(factor) {
+    
+    console.log(factor);
+    return function(num) {
+      
+      console.log(num,"*",factor);
+      return num * factor;
+    };
+  }
+  
+  const double = multiplier(2);
+
+  console.log(double(5)); // 8
+  const triple = multiplier(3);
+  
+  console.log(triple); // 12
+  
+
 
   
   

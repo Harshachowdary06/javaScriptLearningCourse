@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="methods.js" defer></script>
+    <script type="methods" src="methodInheritence.js" defer></script>
+    <script src="..\..\..\index.js" defer></script>
+</head>
+<body>
+
+    <div class="methoddata">
+
+        <h2>Methods</h2>
+        <p>
+            <ul type="square">
+                <li> Let me be clear with one thing. All methods are functions but all methods are not functions</li>
+                <li>Method can only access values inside the object</li>
+                <li>Functions are independent and are global to that block can be accessed independently. <pre>
+                    function func(parameter1,parameter2){
+                        console.log(parameter1 , " plays ",parameter2)
+                    }
+
+                    To use the function : func("ramu","cricket");
+                </pre>
+                
+
+                </li>
+                <li>
+                    Methods are functions with in objects and can be acceseed using dot operator after the function.
+                    <pre>
+                        const object ={
+                            parameter1 :"ramu",
+                            parameter2:"cricket",
+
+                            function func(parameter1,parameter2){
+                                console.log(this.parameter1 , " plays ",this.parameter2)
+                            }
+                        }
+                        To use the function : object.func();
+                    </pre>
+                </li>
+            </ul>
+        </p>
+        <h4>Check console for code output</h4>
+        <h2>this operator</h2>
+        <ul>
+            <li>This always refers to previous value of the variable.</li>
+            <li>if not present or defined previously its undefined</li>
+        </ul>
+
+
+    </div>
+    
+</body>
+</html>
