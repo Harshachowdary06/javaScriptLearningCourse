@@ -129,3 +129,39 @@ const code5_0 = document.createElement("div")
   code5_1.innerHTML= "parameterFunction = " + parameterFunction +"\n\n" +"mainFunction = " +mainFunction;
   code5_0.classList.add("module");
 }
+
+//high order functions
+{
+  const code6_0 = document.createElement("div")
+    const code6_1 = document.createElement("pre");
+    data =`
+                                <h2>High Order function Example</h2>
+                                <p>These are the functions that returns functions .</p>
+                                 `;
+    
+    
+
+
+    const mainFunction =(name)=>{
+      console.log("There is a guy named ",name);
+      return (obsession)=>{
+        console.log(name," He is so obsessed with ", obsession, " at this point he loses him self when he see ",obsession," arround him");
+    }
+    }
+
+
+    returnFunction = mainFunction("Sanji VinSmoke")
+    returnFunction("girls")
+    
+  
+  
+    document.body.appendChild(code6_0);
+    code6_0.innerHTML=  data;
+    code6_0.appendChild(code6_1)
+    code6_1.innerHTML="mainFunction = " +mainFunction;
+    code6_0.classList.add("module");
+  }
+
+
+  
+  
