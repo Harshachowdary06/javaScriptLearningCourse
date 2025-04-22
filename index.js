@@ -61,7 +61,7 @@ footer1.innerHTML = footerData;
         
         for(let block =0;block <document.body.querySelectorAll("div").length;block++){
     
-        let module = document.body.querySelectorAll(".module")[block];
+        let module = document.body.querySelectorAll("pre")[block];
         module.style.width= "fit-Screen";
         module.style.height = "fit-content";
         module.style.padding ="30px";
