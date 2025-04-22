@@ -59,7 +59,7 @@ footer1.innerHTML = footerData;
 
     if(document.body.querySelector("pre") != null){
         
-        for(let block =0;block <document.body.querySelectorAll("div").length;block++){
+        for(let block =0;block <document.body.querySelectorAll("pre").length;block++){
     
         let module = document.body.querySelectorAll("pre")[block];
         module.style.width= "fit-Screen";
