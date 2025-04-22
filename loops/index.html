@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Loops</title>
+    <script src="..\index.js" defer></script>
+    
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+  <div class ="forLoop">
+    <h1>Loop</h1>
+    <p>
+        <ul>
+            <li>This are many way to run a loop</li>
+            <li>Below are the ways to run it and max how to make max use out of them</li>
+        </ul>
+    </p>
+  </div> 
+  
+  <div class="loopTypes">
+
+    <span class="for">
+      <h2>For Loop</h2>
+      <ul>
+        <li>Mainly used for iterating between arrays and numerical loops</li>
+        <li>Only used when user or the software knows how many times to loop</li>
+        <li>Doesnot return any value but can use async, break and continue.</li>
+        <pre>
+          for ( loop =0;  loop<=condition;  loop+ )  {
+
+                          //process or instructions to what to do
+                      
+                          console.log("i looped ",loop," time");
+          }
+        </pre>
+      </ul>
+    </span>
+
+    <span class="while">
+        <h2>While Loop</h2>
+        <ul>
+
+            <li>Usually used when user or program doesnot know how many times to loop but know the expected ressult</li>
+            <li>Does not return any data but we ca use break/continue and is async friendly.</li>
+            <li>While loops checks condition first and then run the loop , if condition is false it doesnot run the loop.</li>
+            
+            <pre>
+                while   (condition)  {
+
+
+                                // processing or instructions
+
+                                //update condition
+
+                                count =0;
+                                
+                                count++;
+
+                        console.log("while repeated here" )
+                    }
+            </pre>
+        </ul>
+    </span>
+
+    <span class="dowhile">
+
+        <h2> Do while loop</h2>
+        <ul>
+            <li>do while loop is simillar to while loop except do while loop runs the loop atleast one time and then and then check the condition.</li>
+            <li>While loops checks condition first and then run the loop , if condition is false it doesnot run the loop.</li>
+            <li>Here is an example of syntax:</li>
+            <pre>
+                do{
+                    //process
+                    //instructions
+                    count  = 0;
+                    count++;
+                    console.log("do while loop ran ",count ," times");
+                }while(condition);
+
+            </pre>
+        </ul>
+
+    </span>
+
+    <span class="for..of">
+        <h2>for ..of loop (ES6)</h2>
+
+        <ul>
+            <li>used mostly for arrays,sets,maps,strings, etc,.</li>
+            <li>cleaner and safer than for loop</li>
+            <li>Below is the syntax example to how use the loop </li>
+            <pre>
+                const fruits = ['apple', 'banana', 'cherry'];
+                for (const fruit of arr) {
+                  console.log(fruit);
+                }
+                
+            </pre>
+        </ul>
+    </span>
+
+    <span class="for ..in">
+
+        <h2>for ..in Loop</h2>
+        <ul>
+            <li>just for iterating keys/properties[like in dictionaries] of an object</li>
+            <li>not recomended for arrays (can include inherited keys)</li>
+            <li>Here is a syntax example of how we can use loops.</li>
+            <pre>
+                const person = { name: "Alice", age: 25 };
+                for (const key in person) {
+                        console.log(key + ": " + person[key]);
+                    }
+
+            </pre>
+        </ul>
+    </span>
+
+    <span class="forEach">
+
+        <h2> forEach() Loop</h2>
+
+        <ul>
+            <li>Iterating arrays with access to value, index, and original array.
+            <li>Cannot use break or continue.    </li>
+            <li>    Good for clean inline loops.</li>
+            <pre>
+                const nums = [1, 2, 3];
+                nums.forEach(function (num, index) {
+                console.log(index, num);
+                });
+
+            </pre>
+        </ul>
+
+    </span>
+
+  </div>
+    
+</body>
+</html>
