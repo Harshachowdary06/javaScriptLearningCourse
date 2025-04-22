@@ -57,7 +57,7 @@ footer1.innerHTML = footerData;
 
 {
 
-    if(document.body.querySelector(".module") != null){
+    if(document.body.querySelector("pre") != null){
         
         for(let block =0;block <document.body.querySelectorAll("div").length;block++){
     
