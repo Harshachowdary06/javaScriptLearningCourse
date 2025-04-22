@@ -15,15 +15,25 @@
     }
 }
 
- dictionary ={
-    "name" :"harsha",
-    "age":25
+//Loops
+
+i=0
+condition = 5;
+
+for(i;i<condition;i++){
+    console.log("In for Loop, looped",i," times")
 }
-let a =[5,6,7];
+i=0;
+
+while(i<condition){
+    
+    console.log("In while Loop, looped",++i," times")
+}
+i=0;
+do{
+    
+    console.log("In do while Loop, looped",++i," times")
+}while(i<condition)
 
 
-console.log("type of a: ",typeof(a));
-
-
-console.log("type of",typeof(dictionary.name));
 

@@ -69,11 +69,6 @@ footer1.innerHTML = footerData;
         module.style.backgroundColor=  "black";
         module.style.color="white"
         module.style.fontFamily = "Georgia, 'Times New Roman', Times, serif";
-        
-    //setting body height
-   // document.body.style.paddingBottom = module.offsetHeight + "px";
-        
-        console.log(block,": got executed succesfully")
         }
 
 
